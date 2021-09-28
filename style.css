@@ -21,19 +21,7 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
-  }
-  
-  /* Style the active/current link*/
-  .header a.active {
     background-color: black;
-    color: lightgray;
-    border: black 0.3px solid;
-  }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    background-color: rgb(114, 14, 101);
-    color: black;
   }
   
   /* Float the link section to the right */
@@ -41,4 +29,17 @@
     float: right;
     display: flex;
     justify-content: space-evenly;
+  }
+  
+  /* Style the active/current link*/
+  .header-right a.active {
+    background-color: black;
+    color: lightgray;
+    border: black 0.3px solid;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header-right a:hover {
+    background-color: rgb(114, 14, 101);
+    color: black;
   }
