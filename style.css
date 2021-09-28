@@ -43,3 +43,31 @@
     background-color: rgb(114, 14, 101);
     color: black;
   }
+
+  body{
+    background-color: black;
+  }
+
+  .parent-flex{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+  }
+
+  #left-flex{
+    background-color: blueviolet;
+    height: 80vh;
+    width: 33.333vh;
+  }
+
+  #mid-flex{
+    background-color: burlywood;
+    height: 80vh;
+    width: 33.333vh;
+  }
+
+  #right-flex{
+    background-color: blueviolet;
+    height: 80vh;
+    width: 33.333vh;
+  }
