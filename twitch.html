@@ -22,22 +22,30 @@
                 <a href="/twitter.html" class="fab fa-twitter" style="font-size:30px"></a>
             </nav>
         </div>
-      </div>
-
-      <div class="parent-flex">
-        <div id="left-flex">
-            
-        </div>
-
-        <div class="mid-flex" id="mid-flex">
-            <h1>Hello I am alex harter</h1>
-        </div>
-
-        <div class="right-flex" id="right-flex">
-
-        </div>
-      </div>
-
     </div>
+
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1154,
+        height: 580,
+        channel: "banksiqs",
+        layout: "video",
+        autoplay: true,
+        // Only needed if this page is going to be embedded on other websites
+        //parent: ["http://project1.jgangi.me"]
+      });
+
+      embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+        var player = embed.getPlayer();
+        player.play();
+      });
+    </script>
+
 </body>
 </html>
