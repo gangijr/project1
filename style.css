@@ -50,24 +50,40 @@
 
   .parent-flex{
     display: flex;
-    justify-content: stretch;
+    justify-content: space-evenly;
     flex-direction: row;
+    align-items: center;
+    text-align: center;
   }
 
   #left-flex{
-    background-color: blueviolet;
     height: 80vh;
     width: 33.333vh;
   }
 
   #mid-flex{
-    background-color: burlywood;
+    background-color: black;
+    height: 80vh;
+    width: 200vh;
+  }
+
+  #right-flex{
     height: 80vh;
     width: 33.333vh;
   }
 
-  #right-flex{
-    background-color: blueviolet;
-    height: 80vh;
-    width: 33.333vh;
+  .fa-twitter {
+    color: #551a8b;
+  }
+
+  .fa-youtube {
+    color: #551a8b;
+  }
+
+  .fa-twitch{
+    color: #551a8b;
+  }
+
+  .fa-discord{
+    color: #551a8b;
   }
