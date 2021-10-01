@@ -145,6 +145,26 @@
     margin-left: 2%;
   } */
 
+  .banks-logo{
+    max-height: 50px;
+  }
+
+  .discord-icon{
+    height:150px; 
+    width: 200px;
+    margin-bottom: 20%;
+  }
+
+  .continue-btn{
+    width: 230px; 
+    height: 30px;
+  }
+
+  .youtube-box{
+    height: 200px;
+    width:350px;
+  }
+
   #rectangle {
     width: 99%;
     height: 80%;
@@ -201,7 +221,6 @@
   #twitch-embed{
     margin-left: 15%;
   }
-
 
   @media screen and (max-width: 500px){
     #youtube-row-1.parent-flex{
