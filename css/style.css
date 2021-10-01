@@ -109,18 +109,37 @@
     font-family: "Montserrat";
   }
   
-  .item {
-    flex-grow: 1;
-    height: 100%;
-    border: solid 3px black;
-    width: 20px;
+
+  .list {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    max-width: 100%;
     color: white;
-    background-color: #36393f;
-    border-radius: 10%;
+  }
+  .list-item {
+    background-color: #551a8b;
+    display: flex;
+    padding: 0.5em;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .list-content {
+    width: 100%;
   }
   
   .harter-face{
     border-radius: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .lucky-logo{
+    border-radius: 20px;
+    height: 100px;
   }
   /* .item + .item {
     margin-left: 2%;
